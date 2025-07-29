@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Build
+build/
+dist/
+*.spec
+
+# Excel de controle
+controle_transferencias.xlsx
