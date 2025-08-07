@@ -3,7 +3,7 @@ import sys
 from datetime import datetime
 from config import CNPJS, PASTA_ORIGEM_BASE, PASTA_DESTINO, RELATORIO_EXCEL
 from excel_utils import carregar_registros_existentes, registrar_transferencias
-from file_handler import listar_arquivos_recentes, copiar_arquivo, enviar_para_ftp
+from file_handler import listar_arquivos_recentes, copiar_arquivo
 
 def get_diretorio_base():
     if getattr(sys, 'frozen', False):
